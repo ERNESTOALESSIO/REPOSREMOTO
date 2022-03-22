@@ -1,2 +1,3 @@
 crear archivo que se llame compras
 crear archivo que se llame compras
+agregue y modifique una linea en remoto  aver si detecta cambio en el repositorio local...veamos.
