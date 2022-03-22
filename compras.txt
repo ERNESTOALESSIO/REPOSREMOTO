@@ -1,3 +1,6 @@
 crear archivo que se llame compras
 crear archivo que se llame compras
-agregue y modifique una linea en remoto  aver si detecta cambio en el repositorio local...veamos.
+agregue y modifique una linea en remoto  aver si detecta cambio en el repositorio local...veamos....no detecto el cambio
+el local del que habia hecho en remoto.
+voy a modificar el local y subirlo.
+
