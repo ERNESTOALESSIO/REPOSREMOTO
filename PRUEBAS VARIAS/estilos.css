@@ -1,0 +1,108 @@
+body {
+background-color: white;  
+margin: 0px;
+font-family: Verdana, sans-serif;
+}
+
+header{
+display: flex;
+box-shadow: 4px 4px 4px rgb(209, 206, 206);
+margin: 0px;
+position:fixed;
+width: 100%;
+
+
+
+}
+
+header div {
+border: 1px solid black;
+
+
+
+}
+.div1 {
+height: 100px;
+width: 20%;
+display: flex
+flex-direction: column;
+
+}
+/* formato del logo */
+.p1 {
+color: rgb(17, 145, 145);
+font-family: fantasy;
+font-size: 45px;
+width: 100%;
+margin: 15px 0 0 40px;
+letter-spacing: 1.5px;
+text-shadow: 2px 2px rgb(208, 202, 202);
+}
+.p2 {
+color: rgb(17, 145, 145);
+text-decoration: overline 2px solid rgb(17, 145, 145);
+font-size: 14px;
+margin-left: 40px;
+width: 100%;
+margin: 0 0 0 40px;
+
+
+
+}
+/* termina el logo */
+
+
+.div2 {
+    display: flex;
+    height: 100px;
+    width: 60%;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+.div2 a {
+border: 1px solid gray;
+margin: 10px;
+padding:4px;
+border-radius: 16px;
+width: 90px;
+text-align: center;
+text-decoration: none;
+box-shadow: 4px 4px 4px rgb(209, 206, 206);
+color: rgb(55, 55, 58);
+font-size: 14px;
+
+
+
+
+}
+
+
+
+
+.div3 {
+    height: 100px;
+    width: 60%;
+
+
+
+}
+.div4 {
+    height: 100px;
+    width: 20%;
+}
+.div2 a {
+
+
+
+
+}
+
+.portada {
+margin: 0 0 0 0;
+
+
+
+}
