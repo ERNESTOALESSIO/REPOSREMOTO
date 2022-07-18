@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP_JS_PARTE2 CONTADOR TEXTAREA</title>
+  <link rel="stylesheet" href="estilos.css" </head>
+
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .box {
+      width: 500px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+    }
+
+    .contador div {
+      text-align: center;
+    }
+  </style>
+
+<body>
+
+
+  <div class="box">
+    <textarea rows="5" maxlength="300" id="mensaje"></textarea>
+    <div id="contador"> 0/3</div>
+  </div>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    const mensaje = document.getElementById('mensaje');
+    const contador = document.getElementById('contador');
+
+    mensaje.addEventListener('input', function (e) {
+      const target = e.target;
+      const longitudMax = target.getAttribute('maxlength');
+      const longitudAct = target.value.length;
+      contador.innerHTML = `${longitudAct}/${longitudMax}`;
+    });
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

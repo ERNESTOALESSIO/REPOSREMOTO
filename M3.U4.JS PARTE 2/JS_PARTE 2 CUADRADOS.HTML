@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP_JS PARTE DOS CUADRADOS</title>
+
+
+  <style>
+    .boton1 {
+      background-color: red;
+
+      width: 100px;
+      height: 100px;
+      flex: 0 0 100px;
+      margin: 0px;
+
+    }
+
+    .boton2 {
+      background-color: blue;
+      width: 100px;
+      height: 100px;
+      flex: 0 0 100px;
+      margin: 0px;
+
+    }
+
+    .boton3 {
+      background-color: green;
+      width: 100px;
+      height: 100px;
+    }
+
+
+    .cambio.red {
+      background: red;
+    }
+
+
+
+
+    .cambio.blue {
+      background: blue;
+
+    }
+
+
+
+    .cambio.green {
+      background: green;
+
+    }
+
+    
+  </style>
+
+<body class="cambio">
+
+  <h2>JS PARTE DOS EJERCICIO CUADRADOS</h2>
+
+
+
+
+
+  <button class=boton1 id="p1">1</button>
+  <button class=boton2 id="p2">2</button>
+  <button class=boton3 id="p3">3</button>
+
+
+
+  <script>
+
+
+    // CSS
+    var cambio = document.getElementsByClassName('cambio')[0];
+    var red = document.getElementById('p1');
+    var green = document.getElementById('p2');
+    var blue = document.getElementById('p3');
+
+    p1.addEventListener('click', function () {
+      cambio.classList.add('red');
+    });
+
+    p2.addEventListener('click', function () {
+      cambio.classList.add('blue');
+    });
+
+    p3.addEventListener('click', function () {
+      cambio.classList.add('green');
+    });
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

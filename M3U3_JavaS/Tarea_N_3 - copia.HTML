@@ -36,26 +36,24 @@
     //medio de transporte
 
     var distancia;
+    var medio;
     
 
     distancia = prompt("Indique la distancia a recorrer en metros", " ",);
     distancia = parseInt(distancia);
 
-    if (distancia <= 1000) { var medio = "caminando";} 
-      else{
-       if (1000 < distancia <= 10000) { var medio = "bicicleta"; }
-        else{
-          if (10000 < distancia <= 30000) { var medio = "bus"; }
-          else{
-             if (30000 < distancia <= 100000) { var medio = "automovil"; }
-              else {var medio = "avion "; }}}}
+    if (0 <distancia && distancia  <= 1000) {  medio= "caminando"; 
+   } else if (1000 < distancia && distancia <= 10000) {  medio = "bicicleta"; 
+      } else if  (10000 < distancia && distancia <= 30000) {  medio = "bus"; 
+        }else if (30000 < distancia && distancia <= 100000) {  medio = "automovil"; 
+         } else { medio = "avion "; }
 
     document.write("El medio de transporte mas indicado es: ", medio,);
 
 
 
-
-
+ 
+ 
 
 
 
