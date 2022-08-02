@@ -1,10 +1,15 @@
 import React from 'react';
-const Header=(props)=>{
-return(
-        <div>Header  </div>
+import"../../styles/components/layout/Header.css";
 
-);
 
+const Header = (props) => {
+        return (
+                <div className="div1">
+                        <p class="p1">Experthia</p>
+                        <p class="p2">Consultora en Capacitacion</p>
+
+                </div>)
+                
 
 }
 

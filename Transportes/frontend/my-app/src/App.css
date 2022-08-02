@@ -1,6 +1,15 @@
-.App {
-  text-align: center;
-  color:black;
+
+
+
+body {
+  background-color: white;
+  margin-top: 0px;
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 

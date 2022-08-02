@@ -1,0 +1,24 @@
+footer {
+    background-color: rgb(17, 145, 145);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+
+
+
+}
+footer div{
+    padding: 20px;
+    width: 50%;
+    font-size: 14px;
+    color: white;
+
+}
+footer div a{
+    color: white;
+    text-decoration: none;
+    line-height: 2px;
+
+}

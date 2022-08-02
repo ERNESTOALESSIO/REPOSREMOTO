@@ -34,6 +34,8 @@ function App() {
       </BrowserRouter>
 
       <Footer />
+      
+
     </div>
 
 
@@ -41,5 +43,8 @@ function App() {
 
   );
 }
+
+
+
 
 export default App;

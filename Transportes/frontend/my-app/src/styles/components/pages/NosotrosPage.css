@@ -1,0 +1,251 @@
+
+
+
+
+
+.portada {
+    margin-top: 18px;
+    height:700px;
+    width: 100%;
+    
+    
+    
+    /* position: fixed; */
+
+
+}
+
+.section1 {
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    /* height: 200px; */
+
+
+
+}
+
+
+
+.portada2{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: bisque; */
+
+}
+.portada2 div {
+    width: 28%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.portada2 div p  {text-align: center;
+    
+
+}
+.portada1 p {
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(234, 248, 248);
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 16px;
+
+}
+.portada1{
+
+margin-bottom: 90px;
+
+
+
+}
+
+.portada2 div img {
+    border-radius: 7px;
+
+
+}
+.portada2 div a {
+    border: 1px solid gray;
+    margin: auto;
+    padding: 8px;
+    border-radius: 16px;
+    /* width: 30%; */
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgb(209, 206, 206);
+    color: rgb(55, 55, 58);
+    font-size: 14px;
+}
+
+.portada2{
+margin-bottom: 30px;
+
+}
+
+.portada2 div a:hover {
+    background-color: rgb(17, 145, 145);
+    color: white;
+
+
+}
+.contain {
+    background-color: rgb(17, 145, 145);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+
+
+
+}
+.contain div{
+    padding: 20px;
+    width: 50%;
+    font-size: 14px;
+    color: white;
+
+}
+.contain div a{
+    color: white;
+    text-decoration: none;
+    line-height: 2px;
+
+}
+
+.contain div ul li{
+    
+    line-height: 23px;
+}
+    
+
+
+.analitica {
+display: flex;
+width: 100%;
+flex-direction: column;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.analitica div{
+width:60% ;
+border: 1px solid gray;
+border-radius: 10px;
+margin: auto;
+/* flex-direction: row; */
+/* justify-content: center; */
+
+}
+.analitica div p{
+color:rgb(17, 145, 145); 
+font-size: 30px;
+text-align: center;
+padding: 0px;
+line-height: 10px;
+
+
+
+
+}
+.portada3 p {
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    background-color: rgb(234, 248, 248);
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 16px;
+
+}
+.portada3 h2{
+margin-left: 40px;
+
+
+}
+
+
+.portada4 div img {
+    border-radius: 90px;
+    width: 90px;
+    height: 90px;
+   
+    border: 2px solid gray;
+    margin: auto; 
+    
+}
+ .portada4 div a {
+    border: 1px solid gray;
+    margin: auto; 
+    padding: 8px;
+    border-radius: 16px;
+    /* width: 30%; */
+    text-align: justify;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgb(209, 206, 206);
+    color: rgb(55, 55, 58);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+    
+.portada4{
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    
+}
+    
+.portada4 div a:hover {
+    background-color: rgb(17, 145, 145);
+    color: white;
+    
+}
+.portada4 div {
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 4px 4px rgb(209, 206, 206);  
+}
+
+.portada4{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: bisque; */
+
+}
+.portada4 div p  {
+    
+    text-align: justify;
+    
+
+}
+.p10  {
+   padding: 12px; 
+   margin:auto;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+.p11  {
+    
+    margin:auto;
+    font-size: 12px;
+    
+
+}

@@ -1,0 +1,54 @@
+.div2 {
+    display: flex;
+    /* height: 100px; */
+    width: 100%;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 2px rgb(209, 206, 206);
+    flex-wrap: wrap;
+  
+}
+
+.div2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type:none;
+    width: 100%;
+}
+
+.div2 ul li a {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 4px 4px 4px rgb(209, 206, 206);
+    color: rgb(55, 55, 58);
+    font-size: 14px;
+
+}
+
+
+
+
+
+.div2 a:hover {
+    background-color: rgb(47, 197, 197);
+    color: white;
+
+
+}
+ 
+.div2 ul li a.activo {
+    background-color: rgb(47, 197, 197);
+    color: white;
+}
+nav{
+height: 50px ;
+width: 100%;
+background-color: white;
+
+top: 100px;
+
+}
