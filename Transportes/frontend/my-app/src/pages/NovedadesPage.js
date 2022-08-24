@@ -31,7 +31,7 @@ import NovedadItem from '../components/novedades/NovedadItem';
             <div className='nove'>
                 <div className='prensa'>
                     <div className='textonove'>
-                        <h3>Nuevas actividades de Atencion al Cliente</h3>
+                        <h2>Notas de interes del area de personas:</h2>
                         {loading ? (
                             <p>Cargando...</p>
                         ) : (

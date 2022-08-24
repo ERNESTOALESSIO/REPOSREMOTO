@@ -3,6 +3,9 @@ import React from 'react';
 import"../styles/components/pages/HomePage.css";
 
 
+
+
+
 const HomePage = (props) => {
     return (
         
@@ -68,7 +71,7 @@ const HomePage = (props) => {
 
             <div className="analitica">
                 <div>
-                    <p>50 Empresas cliente de primera linea</p>
+                    <p>50 Empresas cliente de primera linea <i class="bi bi-check-circle"></i></p>
                     <p>15 años impartiendo capacitacion</p>
                     <p>50.000 personas capacitadas</p>
                     <p>25.000 horas de capacitacion impartidas</p>

@@ -5,7 +5,7 @@ import"../styles/components/pages/NosotrosPage.css";
 
 const NosotrosPage = (props) => {
     return (
-        <div>
+        <div class='divzz'>
             <div className="portada3">
                 <h2>El comienzo...</h2>
 
